@@ -13,7 +13,7 @@ html {
 }
 body {
   font-family:sans-serif;
-  height:80vh;
+  height:130vh;
 }
 a {
   text-decoration: none;
@@ -93,9 +93,9 @@ header .container .icon a {
 /* end layout body */
 /* start form body  */
 form {
-  height:58vh;
+  height:100vh;
   background-color:white;
-  width:52%;
+  width:60%;
   display:flex;
   justify-content:space-between;
   flex-direction:column;
