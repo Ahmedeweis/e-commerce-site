@@ -138,6 +138,7 @@ input {
   border:3px solid #ddd; 
   border-radius:10px; 
   padding: 14px;
+  overflow:hidden;
 }
 input[type="email"]:focus,
 input[type="password"]:focus,
@@ -161,7 +162,7 @@ input[type="phone"]:focus {
 }
 @media (max-width: 768px) {
   input{
-     width: 120%;
+     width: 100%;
   }
 }
 button {
