@@ -93,7 +93,6 @@ header .container .icon a {
 /* end layout body */
 /* start form body  */
 form {
-  height:58vh;
   background-color:white;
   width:52%;
   display:flex;
