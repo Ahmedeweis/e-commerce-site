@@ -84,11 +84,11 @@ header .container .head-Right {
 	align-items:center;
 	width:50%;
 }
-header .container .head-Right .card img {
+header .container .head-Right .cardd img {
 	width:48px;
 	margin-right: 10px;
 }
-button {
+.search-bt {
 	color:black;
 	font-weight:600;
 	width: 70px;
@@ -100,7 +100,7 @@ button {
 	transition:0.5s;
 	cursor: pointer;	
 }
-button:hover {
+.search-bt:hover{
 	border:1px solid #F50A43;
 	background-color:transparent;
 	color:#F50A43;
@@ -109,9 +109,8 @@ button:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 15px;
-    padding: 3px;
     margin-bottom: 3px;
-    padding:7px 50px 7px 3px;
+    padding:7px 50px 7px 5px;
 }
 
 /* 1 head  */
@@ -195,6 +194,9 @@ button:hover {
 }
 /* 1 content */
 /* 0 Products */
+.category {
+    padding-top:60px;
+}
 .line {
     position:relative;
 }
@@ -209,31 +211,59 @@ button:hover {
 }
 .line h2 {
    width:fit-content;
-   border-bottom:5px solid red;
+   border-bottom:4px solid red;
    z-index:5;
 }
 .Product{
     display:flex;
     flex-basis:100%;
+    justify-content:space-between;
 }
 .card {
-    flex-basis:25%;
-
+    flex-basis:30%;  
     padding:10px;
     margin:5px;
     cursor: pointer;
+    position:relative;
 }
 .card:hover {
   box-shadow:
   9.1px 2.4px 86.4px rgba(0, 0, 0, 0.059),
   19px 5px 210px rgba(0, 0, 0, 0.12);
 }
+.card h4 {
+ position:absolute;
+ bottom:-20px;
+ color:red;
+ font-size:18px;
 
+}
 .card h2 {
 
 }
+
+.im {
+    padding:20px 0;
+}
 .im img {
     width:100%;
+}
+.card-bt {
+    width:100%;
+    position:absolute;
+    padding:8px;
+    bottom:-37px;
+    left:0 ;
+    border:none;
+    color:red;
+    font-size:18px;
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+.card-bt {
+  box-shadow:
+  9.1px 2.4px 86.4px rgba(0, 0, 0, 0.059),
+  19px 5px 210px rgba(0, 0, 0, 0.12);    
 }
 /* 1 Products */
 /* 1 Home */
