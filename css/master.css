@@ -237,10 +237,6 @@ header .container .head-Right .cardd img {
  font-size:18px;
 
 }
-.card h2 {
-
-}
-
 .im {
     padding:20px 0;
 }
@@ -263,6 +259,9 @@ header .container .head-Right .cardd img {
   box-shadow:
   9.1px 2.4px 86.4px rgba(0, 0, 0, 0.059),
   19px 5px 210px rgba(0, 0, 0, 0.12);    
+}
+#Case {
+    padding-bottom:60px;
 }
 /* 1 Products */
 /* 1 Home */
