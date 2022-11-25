@@ -8,6 +8,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  height:5000px;
 }
 *:focus {
   outline: none;
@@ -48,9 +49,20 @@ ul {
 }
 /* 1 All */
 /* 0 Home */
+.head {
+    width:100%;
+    background-color:#333;
+    color:white;
+    margin-top:-22px;
+    height:50px;
+    font-family: serif;
+    letter-spacing:1px;
+}
+.head h1 {
+    padding-top:5px;
+}
 header {
-	padding-top:var(--pt);
-	background-color:#aaa;
+    padding-top:var(--pt);
 }
 header .container {
 	display:flex;
@@ -182,5 +194,47 @@ button:hover {
 	margin-left:10px;
 }
 /* 1 content */
+/* 0 Products */
+.line {
+    position:relative;
+}
+.line:before {
+    content:" ";
+    height:2px;
+    width:100%;   
+    bottom:0;
+    left:0;
+    background-color:#ddd;
+    position:absolute;
+}
+.line h2 {
+   width:fit-content;
+   border-bottom:5px solid red;
+   z-index:5;
+}
+.Product{
+    display:flex;
+    flex-basis:100%;
+}
+.card {
+    flex-basis:25%;
+
+    padding:10px;
+    margin:5px;
+    cursor: pointer;
+}
+.card:hover {
+  box-shadow:
+  9.1px 2.4px 86.4px rgba(0, 0, 0, 0.059),
+  19px 5px 210px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+
+}
+.im img {
+    width:100%;
+}
+/* 1 Products */
 /* 1 Home */
 
