@@ -294,6 +294,7 @@ header .container .head-Right .cardd img {
     transition:0.5s;
     margin-top:10px;
     margin-left:8px;
+    cursor: pointer;
 }
 .filter-bt:hover {
     background-color:white;
