@@ -266,20 +266,3 @@ header .container .head-Right .cardd img {
 /* 1 Products */
 /* 1 Home */
 
-/* 0 Search */
-.search-body {
-    background-color:#fff;
-}
-.testimonials h2 {
-    text-align:center;
-}
-.container {
-    display:flex;
-    justify-content:center;
-}
-.container .card {
-    box-shadow:none;
-}
-
-/* 1 Search*/
-
