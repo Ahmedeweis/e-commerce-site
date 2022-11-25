@@ -277,8 +277,27 @@ header .container .head-Right .cardd img {
     display:flex;
     justify-content:center;
 }
-.container .card {
-    box-shadow:none;
+.felt {
+    justify-content:flex-start;
+}
+.filter {
+    display:flex;
+    padding-bottom:60px;
+}
+.filter-bt {
+    padding:5px;
+    background-color:black;
+    color:white;
+    border-radius:9px;
+    font-size:13px;
+    font-family:sans-serif;
+    transition:0.5s;
+    margin-top:10px;
+    margin-left:8px;
+}
+.filter-bt:hover {
+    background-color:white;
+    color:black;
 }
 
 /* 1 Search*/
