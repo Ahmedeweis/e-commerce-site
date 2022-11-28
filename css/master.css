@@ -393,7 +393,7 @@ header .container .head-Right .cardd img {
 .head-product .costs, .cost {
     color:red;
 }
-.list .pay-button, .list .pay-button a {  
+.list .pay-button, .list .pay-button a, .paygtw {  
     padding:10px;
     background-color:red;
     color:white;
@@ -417,3 +417,40 @@ header .container .head-Right .cardd img {
    }  
 }
 /* 1 card */
+
+/* 0 payment */
+.Pay-body {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    background-color:#333;
+}
+
+.pay-choise {
+    font-size:18px;
+    color:white;
+}
+.visa-body {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;  
+}
+.visa-body div {
+    margin:10px 0px;
+}
+.visa-body div input {
+    padding:5px;
+    border-radius:8px;
+    background-color:#ddd;
+}
+.pay-g-w {
+    padding:5px;
+    width:174px;
+    cursor:pointer;
+}
+.pay-g-w a {
+    color:black;
+}
+/* 1 payment */
