@@ -316,8 +316,6 @@ header .container .head-Right .cardd img {
 
 .shop-pro {
     flex-basis: 70%;
-    display:flex;
-    flex-wrap:wrap;
 }
 .shop-pro  .small-card {
     display:flex;
@@ -330,6 +328,7 @@ header .container .head-Right .cardd img {
     border-radius:8px;
     font-weight:bold;
     margin-bottom:15px;
+    margin-bottom:20px;
 }
 .shop-pro  .small-card .seller {
     display:flex;
